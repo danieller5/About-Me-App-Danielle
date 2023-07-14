@@ -24,7 +24,7 @@ struct ContentView: View {
                             .stroke(Color.purple, lineWidth: 5)
                     )
                 Spacer()
-                Text("My name is Danielle, and i'm 17!")
+                Text("My name is Danielle, and i'm 17!!")
                     .font(.title)
                 Image("AboutMePic")
                     .resizable(resizingMode: .stretch)
@@ -40,7 +40,6 @@ struct ContentView: View {
                 .font(.title2)
                 .buttonStyle(.borderedProminent)
                 .tint(.purple)
-                Text(fact)
             }
             
         }
