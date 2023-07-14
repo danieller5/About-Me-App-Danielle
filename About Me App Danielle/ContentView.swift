@@ -32,14 +32,13 @@ struct ContentView: View {
                 Spacer()
                 Spacer()
                 Spacer()
-                Spacer()
-                Spacer()
                 Button("Reveal Fact") {
                     fact = "I am a competitive swimmer"
                 }
                 .font(.title2)
                 .buttonStyle(.borderedProminent)
                 .tint(.purple)
+                Text(fact)
             }
             
         }
